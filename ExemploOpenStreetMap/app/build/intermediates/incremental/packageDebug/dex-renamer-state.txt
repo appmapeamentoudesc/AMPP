@@ -1,0 +1,4 @@
+#Wed Aug 30 10:37:41 BRT 2017
+base.0=C\:\\Users\\Wagner\\Documents\\mobilefootballsimulator-master\\ExemploOpenStreetMap\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Wagner\\Documents\\mobilefootballsimulator-master\\ExemploOpenStreetMap\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
