@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wagner\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Wagner\Documents\ExemploOpenStreetMap\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_4cd10d83aed87bc610d883971e65f53b79d6e17b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wagner\Documents\ExemploOpenStreetMap\app\libs\slf4j-android-1.6.1-RC1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1">
+        <dex dex="C:\Users\Wagner\Documents\ExemploOpenStreetMap\app\build\intermediates\pre-dexed\debug\slf4j-android-1.6.1-RC1_7f9496683c3fdc4a63ca862c67cb3fa280d86fd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wagner\Documents\ExemploOpenStreetMap\app\libs\osmdroid-android-4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="60913edd9f91f63a5106e3bfc06b2fddda657303">
+        <dex dex="C:\Users\Wagner\Documents\ExemploOpenStreetMap\app\build\intermediates\pre-dexed\debug\osmdroid-android-4.1_6a0987a6b51f922afc160e52d22bc790ecceea46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Wagner\Documents\ExemploOpenStreetMap\app\libs\osmbonuspack_v4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fbb5a090c29cc3dbde769e1cc1a7b51029f8bba1">
+        <dex dex="C:\Users\Wagner\Documents\ExemploOpenStreetMap\app\build\intermediates\pre-dexed\debug\osmbonuspack_v4.4_974be2c84f074e12dd5f738c4fc35df7c1851995.jar" />
+    </item>
+
+</items>

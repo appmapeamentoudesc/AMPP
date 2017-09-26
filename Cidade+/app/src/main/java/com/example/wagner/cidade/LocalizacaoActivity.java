@@ -21,6 +21,7 @@ import org.osmdroid.views.MapController;
 import org.osmdroid.views.MapView;
 
 import android.location.LocationListener;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,18 +64,19 @@ public class LocalizacaoActivity extends AppCompatActivity implements LocationLi
         listaLoc();
         gerarListaNoMapa();
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        Toast.makeText(getApplicationContext(), "TESTE", Toast.LENGTH_LONG).show();
 
-        // if (ContextCompat.checkSelfPermission( this, Manifest.permission.ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_DENIED ) {
-        //      try{
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_NETWORK_STATE) != PackageManager.PERMISSION_DENIED) {
+            try {
+                Toast.makeText(getApplicationContext(), "Abriu", Toast.LENGTH_LONG).show();
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
+            } catch (Exception e) {
+                Toast.makeText(getApplicationContext(), "Erro ao Abrir", Toast.LENGTH_LONG).show();
+            }
 
 
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this);
-         //      } catch (Exception e){
-         //         System.out.println("Erro ao abrir localização: " + e);
-        //   }
-
-
-       }
+        }
+    }
 
 
 
