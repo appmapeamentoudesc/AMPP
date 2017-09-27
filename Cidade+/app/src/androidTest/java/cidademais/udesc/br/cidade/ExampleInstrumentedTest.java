@@ -1,4 +1,4 @@
-package com.example.wagner.cidade;
+package cidademais.udesc.br.cidade;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.wagner.cidade", appContext.getPackageName());
+        assertEquals("cidademais.udesc.br.cidade", appContext.getPackageName());
     }
 }

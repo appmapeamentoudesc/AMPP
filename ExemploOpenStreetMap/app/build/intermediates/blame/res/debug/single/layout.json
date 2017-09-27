@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Wagner\\Documents\\GitHub\\AMPP\\ExemploOpenStreetMap\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Wagner\\Documents\\GitHub\\AMPP\\ExemploOpenStreetMap\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Wagner\\Documents\\ExemploOpenStreetMap\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\Wagner\\Documents\\ExemploOpenStreetMap\\app\\src\\main\\res\\layout\\activity_main.xml"
     }

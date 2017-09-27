@@ -1,4 +1,4 @@
-package com.example.wagner.cidade;
+package cidademais.udesc.br.cidade;
 
 import org.junit.Test;
 

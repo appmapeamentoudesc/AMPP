@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\Wagner\\Documents\\ExemploOpenStreetMap\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\Wagner\\Documents\\ExemploOpenStreetMap\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Wagner\\Documents\\GitHub\\AMPP\\ExemploOpenStreetMap\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Wagner\\Documents\\GitHub\\AMPP\\ExemploOpenStreetMap\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]
