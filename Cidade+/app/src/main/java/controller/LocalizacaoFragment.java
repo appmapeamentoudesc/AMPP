@@ -120,6 +120,16 @@ public class LocalizacaoFragment extends Fragment implements LocationListener{
         osm.getOverlays().add(marker);
         osm.invalidate();
 
+        marker.setTitle("Desabamento");
+        marker.setSnippet("Snippet Marker");
+        marker.setSubDescription("Subdescription");
+        marker.setOnMarkerClickListener(new Marker.OnMarkerClickListener() {
+            @Override
+            public boolean onMarkerClick(Marker m, MapView mapView) {
+                m.showInfoWindow();
+                return true;
+            }
+        });
     }
 
     @Override
